@@ -78,7 +78,7 @@ For business inquiries and enterprise solutions, contact us at [your-contact-inf
 
 © 2024 ContentTube. All rights reserved.
 
-## Getting Started
+<!-- ## Getting Started
 
 1. Clone the repository:
 ```bash
@@ -103,7 +103,7 @@ SCHEMATIC_API_KEY=your_key
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Open [http://localhost:3000](http://localhost:3000) to view the application. -->
 
 ## Project Structure
 

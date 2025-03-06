@@ -1,22 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ContentTube - AI-Powered Content Analysis Platform
+
+ContentTube is an advanced AI-powered platform designed to help content creators optimize their YouTube videos through intelligent analysis and insights.
+
+## Features
+
+- **AI Analysis**: Deep-learning powered video content analysis
+- **Intelligent Transcription**: Automated, accurate video transcription
+- **Thumbnail Generation**: AI-assisted custom thumbnail creation
+- **Title Optimization**: SEO-optimized title generation
+- **Shooting Script Analysis**: Detailed breakdown of video techniques
+- **AI Agent Interaction**: Personal AI assistant for content strategy
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS, Shadcn UI
+- **Authentication**: Clerk
+- **AI Integration**: Custom AI agents
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [your-repo-url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_secret
+NEXT_PUBLIC_SCHEMATIC_PUBLISHABLE_KEY=your_key
+SCHEMATIC_API_KEY=your_key
+```
+
+4. Run the development server:
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Project Structure
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
